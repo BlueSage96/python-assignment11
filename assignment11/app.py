@@ -38,3 +38,25 @@ if st.button("Click me"):  # A button that runs code when clicked
     
 if st.checkbox("Show/Hide"):  # Checkbox to toggle something on/off
     st.write("Visible content")  # Displays this text only if the box is checked
+    
+#Part 3
+st.header("Section 3")
+
+# Create two side-by-side columns
+col1, col2 = st.columns(2)
+
+with col1:  # Everything under this goes into the left column
+    st.header("Column 1")
+    st.write("Content for column 1")
+
+with col2:  # Everything under this goes into the right column
+    st.header("Column 2")
+    st.write("Content for column 2")
+
+# Expandable sections
+with st.expander("Click to expand"):
+    st.write("Expanded content here")
+
+# Sidebar
+st.sidebar.title("Sidebar")
+sidebar_option = st.sidebar.selectbox("Select option", ["A", "B", "C"])
