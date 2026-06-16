@@ -23,5 +23,5 @@ def cumulative(row):
     return totals_above.sum()
 df['cumulative'] = df.apply(cumulative, axis = 1)
 
-df.plot(x="order_id",y="total_price",kind="line",title="Cumulative Revenue by Order ID")
+df.plot(x="order_id",y="cumulative",kind="line",title="Cumulative Revenue by Order ID")
 plt.show()
