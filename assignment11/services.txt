@@ -1,0 +1,4 @@
+Task 6
+App url: https://steamtpsscrapegit-k557uoyncgeonyivnkm578.streamlit.app
+Kaggle: https://www.kaggle.com/code/brittprice/titanic-capstone-project-code-the-dream
+Video:
